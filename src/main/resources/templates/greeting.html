@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>③ メッセージをみるページ</title>
+</head>
+<body>
+    <h1>アプリのメッセージだよ！</h1>
+    
+    <p th:text="${greetingMessage}">ここに挨拶文が表示されます。</p>
+    
+    <hr>
+    
+    <a href="/">もう一度名前を入れる</a>
+</body>
+</html>
