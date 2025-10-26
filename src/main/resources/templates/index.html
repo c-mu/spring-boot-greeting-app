@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>① 名前をいれるページ</title>
+</head>
+<body>
+    <h1>あなたの名前を教えてね！</h1>
+    
+    <form action="/greet" method="post">
+        <label for="nameInput">お名前:</label>
+        
+        <input type="text" id="nameInput" name="userName" required>
+        
+        <button type="submit">挨拶する！</button>
+    </form>
+</body>
+</html>
